@@ -34,7 +34,7 @@ One important thing is that due to not all of the packages being legal variable 
 Due to this, the keys in the object that represent the function will follow this naming convention:
 
 1. If the module does not start with `p-`, it will be temporary be added to the module name, like this `require('delay')` -> `require('p-delay')`
-2. `p-` will now be removed from the key name, due to the recommended varible the `require('sindre-p')` being assigned to is `p` or `P`, like the example above!
+2. `p-` will now be removed from the key name, due to the recommended variable the `require('sindre-p')` being assigned to is `p` or `P`, like the example above!
 3. If the module name has hyphens (`-`) in it, it will get removed, and the following character will be capitalized, like this `require('do-whilst')` -> `require('doWhilst')`
 4. Now the module name will get added to the object that this module is exporting, for example like this:
     ```javascript
@@ -64,7 +64,6 @@ They will be mapped just like this:
 - `event` -> [`require('p-event')`](https://github.com/sindresorhus/p-event): Promisify an event by waiting for it to be emitted
 - `every` -> [`require('p-every')`](https://github.com/kevva/p-every): Test whether all promises passes a testing function
 - `filter` -> [`require('p-filter')`](https://github.com/sindresorhus/p-filter): Filter promises concurrently
-- `finally` -> [`require('p-finally')`](https://github.com/sindresorhus/p-finally): `Promise#finally()` ponyfill - Invoked when the promise is settled regardless of outcome
 - `forever` -> [`require('p-forever')`](https://github.com/sindresorhus/p-forever): Run promise-returning &amp; async functions repeatedly until you end it
 - `hardRejection` -> [`require('hard-rejection')`](https://github.com/sindresorhus/hard-rejection): Make unhandled promise rejections fail hard right away instead of the default silent fail
 - `if` -> [`require('p-if')`](https://github.com/sindresorhus/p-if): Conditional promise chains
