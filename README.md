@@ -26,23 +26,6 @@ p.delay(1000)
 
 ```
 
-## Information
----
-
-One important thing is that due to not all of the packages being legal variable names in JavaScript (for example the package `p-map` would be interpreted as `p - map`, like it would be a math equation)
-
-Due to this, the keys in the object that represent the function will follow this naming convention:
-
-1. If the module does not start with `p-`, it will be temporary be added to the module name, like this `require('delay')` -> `require('p-delay')`
-2. `p-` will now be removed from the key name, due to the recommended variable the `require('sindre-p')` being assigned to is `p` or `P`, like the example above!
-3. If the module name has hyphens (`-`) in it, it will get removed, and the following character will be capitalized, like this `require('do-whilst')` -> `require('doWhilst')`
-4. Now the module name will get added to the object that this module is exporting, for example like this:
-    ```javascript
-    const p = {
-        doWhilst: require('p-do-whilst')
-    }
-    ```
-
 ## Documentation
 ---
 ##### `import p from "sindre-p"`
