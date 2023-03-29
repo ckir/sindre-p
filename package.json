@@ -20,7 +20,7 @@
     "async/await"
   ],
   "author": "Costas Kirgoussios",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "delay": "*",
     "hard-rejection": "*",

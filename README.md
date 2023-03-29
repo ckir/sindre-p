@@ -8,7 +8,7 @@ All Promise Utils functions from github.com/sindresorhus bundled together!
 ---
 
 ```sh
-npm install sindre-p --save
+npm install github:ckir/sindre-p --save
 ```
 
 ## Usage
