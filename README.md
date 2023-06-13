@@ -2,7 +2,7 @@
 ---
 
 
-All Promise Utils functions from github.com/sindresorhus bundled together!
+All Promise Utils functions from github.com/sindresorhus bundled together for use in Node.js!
 
 ## Installation
 ---

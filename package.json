@@ -1,7 +1,7 @@
 {
   "name": "sindre-p",
   "version": "1.0.0",
-  "description": "All Promise Utils functions from github.com/sindresorhus bundled together!",
+  "description": "All Promise Utils functions from github.com/sindresorhus bundled together for use in Node.js!",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
