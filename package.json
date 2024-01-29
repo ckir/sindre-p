@@ -74,6 +74,6 @@
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "^3.0.1",
-    "@types/node": "^20.11.7"
+    "@types/node": "^20.11.10"
   }
 }
