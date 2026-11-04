@@ -73,7 +73,7 @@
     "pify": "*"
   },
   "devDependencies": {
-    "@sindresorhus/tsconfig": "^7.0.0",
+    "@sindresorhus/tsconfig": "^9.0.0",
     "@types/node": "^20.14.12"
   }
 }
